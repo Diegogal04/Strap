@@ -24,7 +24,6 @@ button {
 /* #### NAV-BAR #### */
 
 header {
-    background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,3 +78,62 @@ li:hover {
 .login-btn:hover {
     color: var(--blue);
 }
+
+/* #### Home #### */
+
+.home-sect {
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-imgParent {
+    width: 1000px;
+    height: 650px;
+}
+
+.home-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.home-intro {
+    width: 385px;
+    height: 455px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 60px;
+    margin-bottom: 41px;
+}
+
+.home-info {
+    font-size: 21px;
+    color: #808080;
+    margin-bottom: 29px;
+    text-align: center;
+}
+
+.infohome-highlight {
+    color: var(--blue);
+}
+
+.startjourneyhome-btn {
+    width: 203px;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+}
+
+.startjourneyhome-btn:hover {
+    background-color: var(--lightBlue);
+}
+
