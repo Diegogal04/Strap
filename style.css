@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+    --blue: #1490CA; 
+    --lightBlue: #2caae4;
+}
+
+
+/* #### NAV-BAR #### */
+
+header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.nav-logo {
+    width: 200px;
+    height: 70px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+    color: black;
+}
+
+li:hover {
+    color: var(--blue);
+}
+
+.startjourney-btn {
+    width: 148px;
+    height: 41px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    background-color: var(--blue);
+    border: none;
+}
+
+.startjourney-btn:hover {
+    background-color: var(--lightBlue) ;
+}
+
+.login-btn {
+    width: 96px;
+    height: 38px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.login-btn:hover {
+    color: var(--blue);
+}
