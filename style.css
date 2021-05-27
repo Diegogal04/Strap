@@ -83,10 +83,26 @@ li:hover {
 
 .home-sect {
     height: 850px;
+}
+
+.home-container {
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.learn-more {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    color:  #a7a7a7;
+}
+
+.fa-angle-double-down {
+    font-size: 35px;
 }
 
 .home-imgParent {
