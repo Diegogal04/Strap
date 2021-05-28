@@ -202,3 +202,20 @@ li:hover {
     font-size: 17px;
     color: var(--blue);
 }
+
+.story-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.story-staff {
+    width: 1400px;
+    height: 200px;
+    font-size: 20px;
+}
+
+.p-story {
+    color: var(--lightGrey);
+    margin-top: 13px;
+}
