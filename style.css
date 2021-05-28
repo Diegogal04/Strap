@@ -219,3 +219,81 @@ li:hover {
     color: var(--lightGrey);
     margin-top: 13px;
 }
+
+/* #### CONTACT #### */
+
+.contact-sect {
+    height: 850px;
+}
+
+.contact {
+    height: 800px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 45px;
+}
+
+.contact-box {
+    width: 500px;
+    margin-top: 6rem;
+    background-color: white;
+    box-shadow: 0 0 20px 0 var(--blue);
+    
+}
+
+.higlight-contact {
+    display: inline;
+    font-style: normal;
+    background-image: linear-gradient(0deg,var(--blue) 15%,transparent 0);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 35px;
+}
+
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid var(--blue);
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.contactsub-btn {
+    border-radius: 20px;
+    color: var(--blue);
+    margin-top: 18px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid var(--blue);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contactsub-btn:hover {
+    background-color:  var(--blue);
+    color: white;
+}
+
+
+#### MEDIA QUERIES ####
+
+@media screen and (max-width)
