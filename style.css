@@ -294,6 +294,93 @@ form {
 }
 
 
-#### MEDIA QUERIES ####
+/* #### MEDIA QUERIES #### */
 
-@media screen and (max-width)
+@media screen and (max-width: 600px) {
+    
+    .nav-logo {
+        width: 120px;
+        height: 50px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    header {
+        padding-left: 15px;
+    }
+
+    .auth-btns {
+        display: none;
+    }
+
+    .slogan {
+        width: 350;
+        height: 350;
+        font-size: 52px;
+    }
+
+    .home-container {
+        flex-direction: column-reverse;
+    }
+
+    .home-intro {
+        width: 350px;
+        height: 400px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .home-imgParent {
+        width: 340px;
+        height: 250px;
+        margin-top: 6.5rem;
+    }
+
+    .home-img {
+        border-radius: 40px;
+    }
+
+    .team-container {
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+   .story-staff {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+   }
+
+   .p-story {
+       font-size: 15px;
+       width: 310px;
+   }
+
+   .story-staff {
+      height: 455px;
+   }
+
+   .contact-box {
+       width: 350px;
+       height: 550px;
+       border-radius: 25px;
+       margin-top: 50px;
+   }
+
+   .contact-title {
+       margin-top: 118rem;
+   }
+
+   .input-field {
+       width: 275px;
+   }
+
+   form {
+       margin: 10px;
+   }
+
+
+   
+  }
