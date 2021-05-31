@@ -294,7 +294,7 @@ form {
 }
 
 
-/* #### MEDIA QUERIES #### */
+/* #### MEDIA QUERIES PHONE#### */
 
 @media screen and (max-width: 600px) {
     
@@ -382,3 +382,5 @@ form {
    }
    
   }
+
+  
